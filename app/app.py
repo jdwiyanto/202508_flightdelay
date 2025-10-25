@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # call API keys
-api_key_aviation_stack = os.environ("API_KEY_AVIATION_STACK")
-api_key_flightera = os.environ("API_KEY_FLIGHTERA")
+api_key_aviation_stack = os.environ["API_KEY_AVIATION_STACK"]
+api_key_flightera = os.environ["API_KEY_FLIGHTERA"]
 
 st.title('Find the best flight for your travel')
 
