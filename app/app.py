@@ -2,7 +2,7 @@ import streamlit as st
 
 import numpy as np
 import pandas as pd
-from flight_tracker import flight_tracker
+from app.flight_tracker import flight_tracker
 import os
 from dotenv import load_dotenv
 
