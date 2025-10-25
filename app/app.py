@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 # load env variable
-# load_dotenv()
+load_dotenv()
 
 # call API keys
 api_key_aviation_stack = os.environ("API_KEY_AVIATION_STACK")
